@@ -58,6 +58,7 @@
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\IgnoreEnemyCollision.cs" />
+     <Compile Include="Assets\Scripts\LoadScene.cs" />
      <Compile Include="Assets\Scripts\MainCharacterBullet.cs" />
      <Compile Include="Assets\Scripts\PlayerBulletAndMovement.cs" />
      <Compile Include="Assets\Scripts\PlayerHealth.cs" />
