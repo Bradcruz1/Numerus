@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroyPlayer : MonoBehaviour
 {
-	public int EnemyDamageGiven = 10;
+	public int EnemyDamageGiven = 30;
 	GameObject Player;
 	PlayerHealth playerHealth;
 

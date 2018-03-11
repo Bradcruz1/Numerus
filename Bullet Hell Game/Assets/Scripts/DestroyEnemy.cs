@@ -2,23 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyEnemy : MonoBehaviour
+public class DestroyEnemy: MonoBehaviour
 {
-	public int PlayerDamageGiven = 10;
-	GameObject Enemy;
+	public int PlayerDamageGiven = 2;
+	GameObject SubEnemy;
 	EnemyHealth enemyHealth;
 
 	void Awake()
 	{
-		Enemy = GameObject.FindGameObjectWithTag ("Enemy");
-		if (Enemy != null) {
-			enemyHealth = Enemy.GetComponent<EnemyHealth> ();
+		SubEnemy = GameObject.FindGameObjectWithTag ("SubEnemy");
+		if (SubEnemy != null) {
+			enemyHealth = SubEnemy.GetComponent<EnemyHealth> ();
 		}
 	}
 
 	void OnTriggerEnter(Collider other)
 	{
-		if(other.gameObject == Enemy)
+		if(other.gameObject == SubEnemy)
 		{
 			enemyHealth.TakeDamage (PlayerDamageGiven);
 			Destroy (gameObject);

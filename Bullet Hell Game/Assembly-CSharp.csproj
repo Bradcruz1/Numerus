@@ -51,11 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\BossHealth.cs" />
+     <Compile Include="Assets\Scripts\BossMovement.cs" />
      <Compile Include="Assets\Scripts\BulletKillBox.cs" />
+     <Compile Include="Assets\Scripts\DestroyBoss.cs" />
      <Compile Include="Assets\Scripts\DestroyEnemy.cs" />
+     <Compile Include="Assets\Scripts\DestroyEnemy1.cs" />
      <Compile Include="Assets\Scripts\DestroyPlayer.cs" />
      <Compile Include="Assets\Scripts\EnemyBullet.cs" />
      <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\EnemyHealth1.cs" />
      <Compile Include="Assets\Scripts\EnemyMovement.cs" />
      <Compile Include="Assets\Scripts\IgnoreEnemyCollision.cs" />
      <Compile Include="Assets\Scripts\LoadScene.cs" />

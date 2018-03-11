@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 114024561469476174}
   - component: {fileID: 114931056664006612}
   m_Layer: 0
-  m_Name: Enemy Bullets
+  m_Name: Boss Bullet 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
